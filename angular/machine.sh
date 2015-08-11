@@ -9,4 +9,5 @@ sudo npm install -g n;
 n stable;
 sudo npm install -g yo;
 cd /home/user/vagrant;
+echo "export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules" >> ~/.bashrc && source ~/.bashrc;
 sudo npm install bower grunt-cli gulp compass generator-karma generator-angular;
