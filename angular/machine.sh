@@ -1,13 +1,17 @@
 #!/bin/bash
-sudo apt-add-repository ppa:chris-lea/node.js;
-sudo apt-get update;
-sudo apt-get install -y ruby-dev nodejs build-essential git;
-sudo apt-get autoremove -y;
-sudo npm cache clean -f;
-sudo npm install -g npm;
-sudo npm install -g n;
-n stable;
-sudo npm install -g yo;
-cd /home/user/vagrant;
-echo "export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules" >> ~/.bashrc && source ~/.bashrc;
-sudo npm install -g bower grunt-cli gulp compass generator-karma generator-angular;
+apt-add-repository ppa:chris-lea/node.js
+apt-get update
+apt-get install -y ruby-dev nodejs build-essential git
+apt-get autoremove -y
+npm cache clean -f
+npm install -g n
+n stable
+npm install -g npm
+npm install -g yo
+npm update -g
+npm install -g bower
+npm install -g grunt-cli
+npm install -g gulp
+npm install -g compass
+npm install -g generator-karma
+npm install -g generator-angular
