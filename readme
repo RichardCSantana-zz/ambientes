@@ -1,0 +1,13 @@
+Ambiente Angularjs
+Dependências instaladas:
+- yo;
+- bower;
+- grunt;
+- gulp;
+- compass;
+- generator-karma;
+- generator-angular;
+
+modo de uso na pasta ~/app utilize
+yo install <nome_projeto>
+para iniciar o projeto angular
